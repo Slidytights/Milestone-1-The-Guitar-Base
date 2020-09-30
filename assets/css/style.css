@@ -2,6 +2,120 @@
 
 /*--------------------------------------------Colors*/
 
-.bg-color-name {
-    background-color: #676767;
+.bg-color-name-title {
+    background-color: #000;
+}
+
+.ui-manu-color-home { 
+    background-color: #eccc16;
+}
+
+.ui-manu-color-resume {
+    background-color: #eccc16;
+}
+
+.ui-manu-color-contact {
+    background-color: #eccc16;
+}
+
+.ui-manu-color-download {
+    background-color: #eccc16;
+}
+
+/*--------------------------------------------Header*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/logo-guitar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 70px;
+    margin-top: 50px;
+    text-align: left;
+    padding-right: 45px;
+    color: #eccc16;
+    text-shadow: 2px 2px 5px #e6ddc1;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    text-align: center;
+    padding-right: 110px;
+    color: #eccc16;
+    text-shadow: 3px 3px 5px #e6ddc1;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #000;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2);
+    height: 120px;
 }
