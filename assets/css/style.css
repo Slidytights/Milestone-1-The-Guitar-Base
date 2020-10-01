@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*--------------------------------------------Colors*/
 
@@ -28,43 +28,48 @@ header {
     margin: 0;
 }
 
+.bg-shadow {
+    box-shadow: 0 5px 8px #000;
+}
+
 .heading {
     margin-left: 50px;
 }
 
 .logo {
-    background: url("../images/logo-guitar.jpg");
+    background: url("../images/logo-guitar-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
+    transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
 
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Sansita Swashed", sans-serif;
     font-weight: 100;
     font-size: 70px;
     margin-top: 50px;
     text-align: left;
-    padding-right: 45px;
+    padding-left: 35px;
+    padding-right: 70px;
     color: #eccc16;
     text-shadow: 2px 2px 5px #e6ddc1;
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Sansita Swashed", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
     text-align: center;
-    padding-right: 110px;
+    padding-right: 70px;
     color: #eccc16;
-    text-shadow: 3px 3px 5px #e6ddc1;
+    text-shadow: 3px 3px 8px #e6ddc1;
 }
 
 .list-inline-item:not(:last-child) {
@@ -98,7 +103,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 30px;
     display: block;
     color: #000;
     font-size: 26px;
@@ -111,11 +116,88 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0,0,0,0.2);
     height: 120px;
+}
+
+/*--------------------------------------------Hero*/
+.divider {
+    width: 175px;
+    height: 0;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #444;
+
+}
+
+.hero-container {
+    height: 50vh;
+    max-width: 100%;
+    background-image: url("../images/hero-guitar-2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 5px 8px #000, 0 -5px 8px #000;
+    
+    
+}
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron-header {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 110px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #5e5026;
+}
+
+.lead {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 100px;
+    text-shadow: 3px 3px 5px #726230;
+}
+
+
+.bottom-right {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.btn--cta {
+    
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: #fafafa;
+    background-color: #bb3011;
+    border-color: #bb3011;
+    box-shadow: 3px 3px 8px #000;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #bb3011;
+    border-color: #bb3011;
 }
