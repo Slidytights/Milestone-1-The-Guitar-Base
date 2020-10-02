@@ -233,14 +233,21 @@ header {
 
 /*--------------------------------------------journey*/
 
+
 .journey-container {
+    max-width: 100%;
     min-height: 360px;
-    
+    border: 0;
+    background-color: rgb(165, 14, 14); 
+    box-shadow: 0 3px 5px #000, 0 -4px 5px #000;  
+
 }
 
+
+
 .my-float {
-    float: right;
-    padding-right: 60px;
+    float: left;
+    padding-right: 5px;
 }
 
 
@@ -262,16 +269,16 @@ header {
 
 #bd-shadow, #be-shadow, #bf-shadow,
 #bg-shadow, #bh-shadow {
-    font-size: 100%;
-    color: #000;
+    font-size: 90%;
+    color: #eccc16;
 	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #eccc16;
+    -webkit-text-stroke-color: #000;
 }
 
 .text {
     font-family: "Exo", sans-serif;
     padding-left: 10px; 
-    font-weight: 900;
+    font-weight: 600;
     text-shadow: 2px 2px 8px #000;
     
 }
