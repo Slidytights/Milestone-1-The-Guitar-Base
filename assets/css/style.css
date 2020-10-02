@@ -10,15 +10,15 @@
     background-color: #eccc16;
 }
 
-.ui-manu-color-resume {
+.ui-manu-color-about {
+    background-color: #eccc16;
+}
+
+.ui-manu-color-lessons {
     background-color: #eccc16;
 }
 
 .ui-manu-color-contact {
-    background-color: #eccc16;
-}
-
-.ui-manu-color-download {
     background-color: #eccc16;
 }
 
@@ -140,6 +140,7 @@ header {
     height: 50vh;
     max-width: 100%;
     background-image: url("../images/hero-guitar-2.jpg");
+  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -147,38 +148,64 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 5px 8px #000, 0 -5px 8px #000;
-    
+   
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
     
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
 .jumbotron {
     background: transparent;
+
+    
 }
 
 .jumbotron-header {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 30px;
-    padding-top: 50px;
-    padding-left: 110px;
+    padding-top: 20px;
+   
     text-transform: uppercase;
     text-shadow: 3px 3px 5px #5e5026;
 }
 
 .lead {
+   
     font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 25px;
     padding-top: 10px;
-    padding-left: 100px;
+    
     text-shadow: 3px 3px 5px #726230;
 }
 
 
-.bottom-right {
-    padding-left: 80px;
-    padding-top: 10px;
+
+.solid .jumbotron-header .lead {
+    
+    background: rgba(0, 0, 0, 0.9);
 }
+
+.bottom-right {
+    padding-top: 25px
+}
+
+
 
 .btn--cta {
     
