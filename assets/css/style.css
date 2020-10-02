@@ -28,7 +28,7 @@ header {
     margin: 0;
 }
 
-.bg-shadow {
+.bt-shadow {
     box-shadow: 0 5px 8px #000;
 }
 
@@ -217,9 +217,9 @@ header {
 }
 
 .btn--red {
-    color: #fafafa;
-    background-color: #bb3011;
-    border-color: #bb3011;
+    color: #000;
+    background-color: #eccc16;
+    border-color: #eccc16;
     box-shadow: 3px 3px 8px #000;
 }
 
@@ -227,22 +227,26 @@ header {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #bb3011;
-    border-color: #bb3011;
+    background-color: #b9a21d;
+    border-color: #eccc16;
 }
 
 /*--------------------------------------------journey*/
 
 .journey-container {
     min-height: 360px;
-    padding: 0;
+    
+}
+
+.my-float {
+    float: right;
+    padding-right: 60px;
 }
 
 
 .spaced {
   
-  padding: 0;
-  padding-top: 20px;
+  padding-top: 30px;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -252,22 +256,23 @@ header {
 }
 .spaced li {
     border: 0;
-    padding-left: 15px; 
+    padding-left: 10px; 
     height: 60px;
 }
 
 #bd-shadow, #be-shadow, #bf-shadow,
 #bg-shadow, #bh-shadow {
-    color: #eccc16;
-	-webkit-text-stroke-width: .5px;
-    -webkit-text-stroke-color: black;
+    font-size: 100%;
+    color: #000;
+	-webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: #eccc16;
 }
 
 .text {
-    padding-left: 10px;
-    font-size: 80%;
-    font-weight: bold;
-    text-shadow: 3px 3px 5px #000;
+    font-family: "Exo", sans-serif;
+    padding-left: 10px; 
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #000;
     
 }
 
