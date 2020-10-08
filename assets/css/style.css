@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #000;
+    background-image: linear-gradient( #000, #eccc16);
 }
 
 .ui-manu-color-home { 
@@ -58,7 +58,7 @@ header {
     padding-left: 35px;
     padding-right: 70px;
     color: #eccc16;
-    text-shadow: 2px 2px 5px #e6ddc1;
+    text-shadow: 2px 2px 5px #000;
 }
 
 .title {
@@ -70,7 +70,7 @@ header {
     text-align: center;
     padding-right: 70px;
     color: #eccc16;
-    text-shadow: 3px 3px 8px #e6ddc1;
+    text-shadow: 3px 3px 8px #000;
 }
 
 .list-inline-item:not(:last-child) {
@@ -180,8 +180,7 @@ header {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 30px;
-    padding-top: 20px;
-   
+    padding-top: 25px;
     text-transform: uppercase;
     text-shadow: 3px 3px 5px #5e5026;
 }
@@ -209,26 +208,24 @@ header {
 
 
 
-.btn--cta {
+.btn-yel {
     
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
-}
-
-.btn--red {
     color: #000;
     background-color: #eccc16;
-    border-color: #eccc16;
     box-shadow: 3px 3px 8px #000;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #b9a21d;
-    border-color: #eccc16;
+
+
+.btn-yel:hover,
+.btn-yel:active,
+.btn-yel:focus,
+.btn-yel:active:focus {
+    background-color: #000;
+    color: #eccc16;
 }
 
 /*--------------------------------------------journey*/
@@ -238,7 +235,7 @@ header {
     max-width: 100%;
     min-height: 360px;
     border: 0;
-    background-color: rgb(165, 14, 14); 
+    background-image: linear-gradient(to right, #000, #eccc16); 
     box-shadow: 0 3px 5px #000, 0 -4px 5px #000;  
 
 }
@@ -246,7 +243,6 @@ header {
 
 
 .my-float {
-    float: left;
     padding-right: 5px;
 }
 
@@ -268,7 +264,9 @@ header {
 }
 
 #bd-shadow, #be-shadow, #bf-shadow,
-#bg-shadow, #bh-shadow {
+#bg-shadow, #bh-shadow, #bi-shadow,
+#bj-shadow, #bk-shadow,
+#bl-shadow, #bm-shadow {
     font-size: 90%;
     color: #eccc16;
 	-webkit-text-stroke-width: .6px;
@@ -300,8 +298,31 @@ header {
     -o-transition: 0.35s ease-in-out;
 }
 
-.list-inline li i:hover {
+.my-float li i:hover {
     color: #eccc16;
     background: #000;
 }
 
+/*--------------------------------------------Footer*/
+
+
+.footer-container {
+    max-width: 100%;
+    min-height: 120px;
+    border: 0;
+    background-image: linear-gradient(to left, #000, #eccc16); 
+    box-shadow: 0 3px 5px #000, 0 -4px 5px #000; 
+}
+
+.my-sub {
+    font-family: "Exo", sans-serif;
+    padding-top: 10px;
+    padding-left: 10px; 
+    font-weight: 600;
+    text-shadow: 2px 2px 8px #000;
+}
+#word-outline {
+    color: #eccc16;
+	-webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: #000;
+}
