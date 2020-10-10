@@ -182,7 +182,7 @@ header {
     font-size: 30px;
     padding-top: 25px;
     text-transform: uppercase;
-    text-shadow: 3px 3px 5px #5e5026;
+    text-shadow: 3px 3px 5px #000;
 }
 
 .lead {
@@ -192,10 +192,14 @@ header {
     font-size: 25px;
     padding-top: 10px;
     
-    text-shadow: 3px 3px 5px #726230;
+    text-shadow: 3px 3px 5px #000;
 }
 
-
+#head, #lead {
+    color: #eccc16;
+	-webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: #000;
+}
 
 .solid .jumbotron-header .lead {
     
@@ -235,7 +239,7 @@ header {
     max-width: 100%;
     min-height: 360px;
     border: 0;
-    background-image: linear-gradient(to right, #000, #eccc16); 
+    background-image: linear-gradient(to top, #000, #eccc16); 
     box-shadow: 0 3px 5px #000, 0 -4px 5px #000;  
 
 }
@@ -243,30 +247,23 @@ header {
 
 
 .my-float {
-    padding-right: 5px;
-}
-
-
-.spaced {
-  
-  padding-top: 30px;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 0;
+    padding-right: 5px; 
+    padding-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
   
 }
-.spaced li {
+
+.my-float li {
     border: 0;
     padding-left: 10px; 
     height: 60px;
 }
 
-#bd-shadow, #be-shadow, #bf-shadow,
-#bg-shadow, #bh-shadow, #bi-shadow,
-#bj-shadow, #bk-shadow,
-#bl-shadow, #bm-shadow {
+#text-change {
     font-size: 90%;
     color: #eccc16;
 	-webkit-text-stroke-width: .6px;
@@ -281,7 +278,7 @@ header {
     
 }
 
-.spaced i {
+.my-float i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -310,19 +307,113 @@ header {
     max-width: 100%;
     min-height: 120px;
     border: 0;
-    background-image: linear-gradient(to left, #000, #eccc16); 
+    background-image: linear-gradient(to bottom, #000, #eccc16); 
     box-shadow: 0 3px 5px #000, 0 -4px 5px #000; 
 }
 
 .my-sub {
     font-family: "Exo", sans-serif;
     padding-top: 10px;
-    padding-left: 10px; 
     font-weight: 600;
-    text-shadow: 2px 2px 8px #000;
+    text-shadow: 2px 2px 5px #000;
 }
-#word-outline {
+
+.uppercase {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 5px;
+    
+}
+
+.center-p {
+    text-align: center;
+}
+
+#my-footer {
     color: #eccc16;
 	-webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color: #000;
 }
+
+.page-link-container {
+    font-family: "Exo", sans-serif;
+    margin: 0;
+    padding-top: 20px;
+    
+}
+
+#page-links, #social-links {
+    display: flex;
+    justify-content: center;
+}
+
+#page-links li {
+    font-size: 14px;
+    padding: 10px 5px 10px 5px;   
+
+}
+
+.page-link-item {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.page-link-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #eccc16;
+	-webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: #000;
+    height: 120px;
+}
+
+.page-link-item a i {
+    padding-top: 10px;
+    display: block;
+    color: #eccc16;
+	-webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: #000;
+    font-size: 20px;
+}
+
+.page-link-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.social-links {
+    padding-top: 10px;
+}
+
+.social-links li {
+    padding: 0 5px 10px 5px;
+}
+
+.social-links i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px #000;
+    line-height: 7px;
+    text-align: center;
+    color: #000;
+    background: #eccc16; 
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+}
+
+.social-links li i:hover {
+    color: #eccc16;
+    background: #000;
+}
+
