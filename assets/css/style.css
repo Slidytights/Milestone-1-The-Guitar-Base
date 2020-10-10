@@ -210,7 +210,9 @@ header {
     padding-top: 25px
 }
 
-
+.list-j {
+    padding-left: 10px;
+}
 
 .btn-yel {
     
@@ -326,9 +328,6 @@ header {
     
 }
 
-.center-p {
-    text-align: center;
-}
 
 #my-footer {
     color: #eccc16;
@@ -350,7 +349,7 @@ header {
 
 #page-links li {
     font-size: 14px;
-    padding: 10px 5px 10px 5px;   
+    padding: 10px 15px 10px 15px;   
 
 }
 
@@ -388,12 +387,18 @@ header {
     letter-spacing: 1px;
 }
 
+
+.list-ft {
+    padding-left: 5px;
+}
+
+
 .social-links {
     padding-top: 10px;
 }
 
 .social-links li {
-    padding: 0 5px 10px 5px;
+    padding: 0 15px 10px 15px;
 }
 
 .social-links i {
@@ -443,6 +448,7 @@ header {
 .history-container {
     max-width: 100%;
     min-height: 360px;
+    padding: 30px 70px 20px 70px;
     border: 0;
     background-image: linear-gradient(to bottom, #000, #eccc16); 
     box-shadow: 0 3px 5px #000, 0 -4px 5px #000; 
@@ -456,4 +462,23 @@ header {
     -webkit-text-stroke-color: #000;
     text-shadow: 2px 2px 5px #000;
 
+}
+
+.my-about {
+    padding-bottom: 30px;
+}
+
+.center-p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+/*--------------------------------------------media-query*/
+
+@media (min-width: 786px) {
+        .list-j {
+            padding-left: 120px;
+        }
 }
