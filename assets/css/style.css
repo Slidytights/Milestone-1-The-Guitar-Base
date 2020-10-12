@@ -34,7 +34,7 @@ header {
 
 .heading {
     margin-left: 50px;
-    border: o;
+    border: 0;
 }
 
 .logo {
@@ -138,7 +138,7 @@ header {
 }
 
 .hero-container {
-    height: 50vh;
+   
     max-width: 100%;
     min-height: 360px;
     border: 0;
@@ -246,7 +246,16 @@ header {
 
 }
 
-
+.my-base {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 25px;
+    color: #eccc16;
+	-webkit-text-stroke-width: .9px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: 2px 2px 5px #000;
+}
 
 .my-float {
     padding-right: 5px; 
@@ -284,8 +293,8 @@ header {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    border-radius: 50%;
-    font-size: 12px 0;
+    border-radius: 12.5%;
+    font-size: 12px;
     box-shadow: 2px 2px 8px #000;
     line-height: 7px;
     text-align: center;
@@ -349,9 +358,11 @@ header {
 
 #page-links li {
     font-size: 14px;
-    padding: 10px 15px 10px 15px;   
-
+    padding: 10px 10px 10px 10px; 
+    
 }
+
+
 
 .page-link-item {
     text-align: center;
@@ -367,14 +378,16 @@ header {
     height: 120px;
 }
 
-.page-link-item a i {
+.page-link-item i {
     padding-top: 10px;
     display: block;
     color: #eccc16;
 	-webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color: #000;
     font-size: 20px;
+    
 }
+
 
 .page-link-item span {
     display: block;
@@ -405,7 +418,7 @@ header {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    border-radius: 50%;
+    border-radius: 12.5%;
     box-shadow: 2px 2px 8px #000;
     line-height: 7px;
     text-align: center;
@@ -420,6 +433,12 @@ header {
 .social-links li i:hover {
     color: #eccc16;
     background: #000;
+}
+
+.center-p {
+    text-align: center;
+    font-size: 80%;
+    padding-top: 10px;
 }
 
 /*--------------------------------------------About-hero-section*/
@@ -468,12 +487,21 @@ header {
     padding-bottom: 30px;
 }
 
-.center-p {
+.center-about {
     text-align: center;
-    font-size: 20px;
+    font-size: 150%;
     padding-top: 10px;
 }
 
+/*--------------------------------------------About-quotes-section*/
+
+.quotes-container {
+    max-width: 100%;
+    min-height: 360px;
+    border: 0;
+    background-image: linear-gradient(to top, #000, #eccc16); 
+    box-shadow: 0 3px 8px #000, 0 -3px 8px #000;  
+}
 
 /*--------------------------------------------media-query*/
 
