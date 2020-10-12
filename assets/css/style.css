@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+h1 {
+    font-size: 280%;
+}
+
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -54,6 +58,7 @@ header {
     font-weight: 100;
     font-size: 70px;
     margin-top: 50px;
+    letter-spacing: 3px;
     text-align: left;
     padding-left: 35px;
     padding-right: 70px;
@@ -65,6 +70,7 @@ header {
     font-family: "Sansita Swashed", sans-serif;
     font-weight: 200;
     font-size: 28px;
+    letter-spacing: 2px;
     margin-top: 20px;
     margin-bottom: 90px;
     text-align: center;
@@ -241,25 +247,27 @@ header {
     max-width: 100%;
     min-height: 360px;
     border: 0;
-    background-image: linear-gradient(to top, #000, #eccc16); 
+    background-image: linear-gradient(to bottom, #000, #eccc16); 
     box-shadow: 0 3px 8px #000, 0 -3px 8px #000;  
 
 }
 
 .my-base {
-    font-family: "Roboto", sans-serif;
+    font-family: "Sansita Swashed", sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-weight: 600;
     padding-top: 25px;
+    font-size: 380%;
+    letter-spacing: 3px;
     color: #eccc16;
-	-webkit-text-stroke-width: .9px;
-    -webkit-text-stroke-color: #000;
+	
     text-shadow: 2px 2px 5px #000;
 }
 
 .my-float {
     padding-right: 5px; 
     padding-top: 30px;
+    padding-bottom: 15px;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -333,7 +341,7 @@ header {
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-    padding-top: 5px;
+    padding-top: 10px;
     
 }
 
@@ -388,6 +396,23 @@ header {
     
 }
 
+.page-link-item i:hover {
+    color: #000;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    text-shadow: 2px 2px 5px #eccc16;
+}
+
+.page-link-item span:hover {
+    color: #000;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    text-shadow: 2px 2px 5px #eccc16;
+}
 
 .page-link-item span {
     display: block;
@@ -402,7 +427,8 @@ header {
 
 
 .list-ft {
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -477,14 +503,13 @@ header {
     font-family: "Sansita Swashed", sans-serif;
     text-align: center;
     color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
     text-shadow: 2px 2px 5px #000;
 
 }
 
 .my-about {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
 }
 
 .center-about {
@@ -499,8 +524,41 @@ header {
     max-width: 100%;
     min-height: 360px;
     border: 0;
-    background-image: linear-gradient(to top, #000, #eccc16); 
+    background-image: linear-gradient(to bottom, #000, #eccc16); 
     box-shadow: 0 3px 8px #000, 0 -3px 8px #000;  
+}
+
+.my-quotes {
+    font-family: "Sansita Swashed", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 25px;
+    color: #eccc16;
+	
+    text-shadow: 2px 2px 5px #000;
+}
+
+.media {
+    padding-bottom: 20px;
+}
+
+.media-pic {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 12.5%;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.media-quote p {
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    padding-left: 10px;
+    color: #eccc16;
+	-webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: 2px 2px 5px #000;
 }
 
 /*--------------------------------------------media-query*/
