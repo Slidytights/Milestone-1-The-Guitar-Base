@@ -47,9 +47,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -webkit-transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
 
 }
 
@@ -64,6 +64,11 @@ header {
     padding-right: 70px;
     color: #eccc16;
     text-shadow: 2px 2px 5px #000;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transform: rotateY(360deg);
 }
 
 .title {
@@ -77,6 +82,11 @@ header {
     padding-right: 70px;
     color: #eccc16;
     text-shadow: 3px 3px 8px #000;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transform: rotateY(360deg);
 }
 
 .list-inline-item:not(:last-child) {
@@ -312,11 +322,17 @@ header {
     -moz-transition: 0.35s ease-in-out;
     -webkit-transition: 0.35s ease-in-out;
     -o-transition: 0.35s ease-in-out;
+    
 }
 
 .my-float li i:hover {
     color: #eccc16;
     background: #000;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transform: rotateY(360deg);
 }
 
 /*--------------------------------------------Footer*/
@@ -375,6 +391,7 @@ header {
 .page-link-item {
     text-align: center;
     padding-bottom: 20px;
+    
 }
 
 .page-link-item a {
@@ -384,6 +401,10 @@ header {
 	-webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color: #000;
     height: 120px;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
 }
 
 .page-link-item i {
@@ -393,24 +414,20 @@ header {
 	-webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color: #000;
     font-size: 20px;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
     
 }
 
 .page-link-item i:hover {
     color: #000;
-    transition: 0.35s ease-in-out;
-    -moz-transition: 0.35s ease-in-out;
-    -webkit-transition: 0.35s ease-in-out;
-    -o-transition: 0.35s ease-in-out;
     text-shadow: 2px 2px 5px #eccc16;
 }
 
 .page-link-item span:hover {
     color: #000;
-    transition: 0.35s ease-in-out;
-    -moz-transition: 0.35s ease-in-out;
-    -webkit-transition: 0.35s ease-in-out;
-    -o-transition: 0.35s ease-in-out;
     text-shadow: 2px 2px 5px #eccc16;
 }
 
@@ -459,6 +476,11 @@ header {
 .social-links li i:hover {
     color: #eccc16;
     background: #000;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transform: rotateY(360deg);
 }
 
 .center-p {
@@ -539,6 +561,7 @@ header {
 }
 
 .media {
+    padding-left: 15px;
     padding-bottom: 20px;
 }
 
@@ -550,6 +573,15 @@ header {
     box-shadow: 2px 2px 5px #000;
 }
 
+.media-pic:hover {
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transform: rotateY(360deg);
+}
+
+
 .media-quote p {
     font-size: 18px;
     font-weight: 500;
@@ -559,6 +591,19 @@ header {
 	-webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color: #000;
     text-shadow: 2px 2px 5px #000;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+   
+}
+
+.video {
+    border: 0;
+    border-radius: 2.5%;
+    box-shadow: 2px 2px 5px #000;
 }
 
 /*--------------------------------------------media-query*/
