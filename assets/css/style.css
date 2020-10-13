@@ -596,14 +596,31 @@ header {
 .video-container {
     display: flex;
     justify-content: center;
-    padding-left: 30px;
-   
 }
 
 .video {
     border: 0;
     border-radius: 2.5%;
     box-shadow: 2px 2px 5px #000;
+}
+
+/*--------------------------------------------lessons-page*/
+
+.price-container {
+    max-width: 100%;
+    min-height: 720px;
+    border: 0;
+    background-image: linear-gradient(to top, #000, #eccc16); 
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+img {
+    width: 100%;
 }
 
 /*--------------------------------------------media-query*/
@@ -613,3 +630,9 @@ header {
             padding-left: 120px;
         }
 }
+
+@media (min-width: 786px) {
+    .video-container {
+        padding-left: 150px;
+    }
+} 
