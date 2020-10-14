@@ -1,134 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/1967e283de.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/1967e283de.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Guitar Base</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="row no-gutters bt-shadow">
-            <a href="index.html" class="col-md-4 logo">
-                
-            </a>
-            <div class="col-md-8">
-                <div class="row no-gutters bg-color-name-title">
-                    <div class="col heading">
-                        <h1 class="name">The Guitar Base</h1>
-                        <h2 class="title">Your Journey Starts Here!</h2>
-
-                    </div>
-                </div>
-                 <div class="row no-gutters">
-                    <div class="col">
-                        <ul id="nav" class="list-inline menucontainer">
-                            <li class="col-6 col-sm-3 ui-manu-color-home list-inline-item menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-manu-color-about list-inline-item menuitem">
-                                <a href="about.html" class="hvr-sweep-to-bottom"><i class="fa fa-info" aria-hidden="true"></i><span>About</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-manu-color-lessons list-inline-item menuitem">
-                                <a href="lessons.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Lessons</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-manu-color-contact list-inline-item menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comments" aria-hidden="true"></i><span>Contact</span></a>
-                            </li>
-                        </ul>                       
-                    </div>
-                </div> 
+      <div class="row no-gutters bt-shadow">
+        <a href="index.html" class="col-md-4 logo"> </a>
+        <div class="col-md-8">
+          <div class="row no-gutters bg-color-name-title">
+            <div class="col heading">
+              <h1 class="name">The Guitar Base</h1>
+              <h2 class="title">Your Journey Starts Here!</h2>
             </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col">
+              <ul id="nav" class="list-inline menucontainer">
+                <li
+                  class="col-6 col-sm-3 ui-manu-color-home list-inline-item menuitem"
+                >
+                  <a href="index.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-home" aria-hidden="true"></i
+                    ><span>Home</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-manu-color-about list-inline-item menuitem"
+                >
+                  <a href="about.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-info" aria-hidden="true"></i
+                    ><span>About</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-manu-color-lessons list-inline-item menuitem"
+                >
+                  <a href="lessons.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-graduation-cap" aria-hidden="true"></i
+                    ><span>Lessons</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-manu-color-contact list-inline-item menuitem"
+                >
+                  <a href="contact.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-comments" aria-hidden="true"></i
+                    ><span>Contact</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-    
+      </div>
     </header>
-<!---------------------------from W3schools.com-------------------------->
-    <section class="container-fluid price-container">
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="assets/images/acoustic.jpg">
-                <div class="text">Acoustic Guitar Lessons</div>
+    <!----------------------------------pricing table from Narender Singh mentor-->
+    <section class="container-fluid price-container pricing-table">
+        <div class="card">
+            <h6 class="type">Acoustic Lessons</h6>
+            <div class="price"><span>£</span>20</div>
+            <h5 class="plan">Type</h5>
+            <ul class="details">
+                <li>Beginner</li>
+                <li>Intermediate</li>
+                <li>Advanced</li>
+            </ul>
+            <div class="buy-button">
+                <h3 class="btn">subscribe</h3>
             </div>
         </div>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="assets/images/acoustic.jpg">
-                <div class="text">Electric Guitar Lessons</div>
+
+        <div class="card">
+            <h6 class="type">Electric Lessons</h6>
+            <div class="price"><span>£</span>20</div>
+            <h5 class="plan">Type</h5>
+            <ul class="details">
+                <li>Beginner</li>
+                <li>Intermediate</li>
+                <li>Advanced</li>
+            </ul>
+            <div class="buy-button">
+                <h3 class="btn">subscribe</h3>
             </div>
         </div>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="assets/images/acoustic.jpg">
-                <div class="text">Bass Guitar Lessons</div>
+
+        <div class="card">
+            <h6 class="type">Bass Lessons</h6>
+            <div class="price"><span>£</span>20</div>
+            <h5 class="plan">Type</h5>
+            <ul class="details">
+                <li>Beginner</li>
+                <li>Intermediate</li>
+                <li>Advanced</li>
+            </ul>
+            <div class="buy-button">
+                <h3 class="btn">subscribe</h3>
             </div>
         </div>
     </section>
 
     <footer class="container-fluid footer-container">
-        <div id="my-footer" class="row my-sub footer-bg-color">
-            <div id="word-outline" class="col-md-4">
-                <h5 class="uppercase">
-                    Tutoring
-                </h5>
-                <p class="inline-block center-p">
-                    Our professional tutors will teach you guitar and help
-                    you understand with confidence!
-                </p>
-            </div>
-            <div class="col-md-4">
-                <ul id="page-links" class="list-inline page-link-container">                
-                    <li class="list-inline-item page-link-item">
-                        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                    </li>
-                    <li class="list-inline-item page-link-item">
-                        <a href="about.html"><i class="fa fa-info" aria-hidden="true"></i><span>About</span></a>
-                    </li>
-                    <li class="list-inline-item page-link-item">
-                        <a href="lessons.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Lessons</span></a>
-                    </li>
-                    <li class="list-inline-item page-link-item">
-                        <a href="contact.html"><i class="fa fa-comments" aria-hidden="true"></i><span>Contact</span></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h5 class="uppercase general-sub">Social</h5>
-                <ul id="social-links" class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.twitter.com/">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instgram.com/">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/">
-                            <i class="fa fa-youtube-square" aria-hidden="true"></i>
-                            <span class="sr-only">Youtube</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+      <div id="my-footer" class="row my-sub footer-bg-color">
+        <div id="word-outline" class="col-md-4">
+          <h5 class="uppercase">
+            Tutoring
+          </h5>
+          <p class="inline-block center-p">
+            Our professional tutors will teach you guitar and help you
+            understand with confidence!
+          </p>
         </div>
-    
+        <div class="col-md-4">
+          <ul id="page-links" class="list-inline page-link-container">
+            <li class="list-inline-item page-link-item">
+              <a href="index.html"
+                ><i class="fa fa-home" aria-hidden="true"></i
+                ><span>Home</span></a
+              >
+            </li>
+            <li class="list-inline-item page-link-item">
+              <a href="about.html"
+                ><i class="fa fa-info" aria-hidden="true"></i
+                ><span>About</span></a
+              >
+            </li>
+            <li class="list-inline-item page-link-item">
+              <a href="lessons.html"
+                ><i class="fa fa-graduation-cap" aria-hidden="true"></i
+                ><span>Lessons</span></a
+              >
+            </li>
+            <li class="list-inline-item page-link-item">
+              <a href="contact.html"
+                ><i class="fa fa-comments" aria-hidden="true"></i
+                ><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="uppercase general-sub">Social</h5>
+          <ul id="social-links" class="list-inline social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.twitter.com/">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instgram.com/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.youtube.com/">
+                <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                <span class="sr-only">Youtube</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
-    
-</body>
+    <script></script>
+  </body>
 </html>
