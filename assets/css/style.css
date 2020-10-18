@@ -654,6 +654,68 @@ header {
     text-shadow: 2px 2px 5px #000;
  }
 
+/*--------------------------------------------Contact-page*/
+
+.contact-container {
+    max-width: 100%;
+    min-height: 360px;
+    border: 0;
+    background-image: linear-gradient(to bottom,#eccc16, #000, #eccc16);  
+    box-shadow: 0 3px 8px #000, 0 -3px 8px #000;  
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    padding: 25px 0;
+    color: #eccc16;
+	-webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: 2px 2px 5px #000;  
+}
+
+.center-form {
+   padding: 20px 0;
+   margin: 0 auto;
+   max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.form-container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.name-labels {
+    margin: 0;
+    font-family: "Exo", sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    color: #eccc16;
+	-webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: 2px 2px 5px #000;
+}
+
 /*--------------------------------------------media-query*/
 
 @media (min-width: 786px) {
@@ -688,5 +750,15 @@ header {
 @media (max-width: 600px) {
     .car-p{
         font-size: 100%;
+    }
+    .bd-example{
+        padding: 20px 20px 20px 20px;
+    }
+
+    .carousel-caption {
+        position: static;
+    }
+    .bottom-right {
+        padding-bottom: 25px;
     }
 }

@@ -48,13 +48,45 @@
 
     <hr class="divider">
 
-   
+   <section class="container-fluid contact-container">
+        <div class="row">
+            <div class="col">
+                <h2 class="contact-heading">Contact us for more info!</h2>
+
+                <div class="form-container">
+                    <form action="action_page.php">
+                        <label class="name-labels" for="fname">First Name</label>
+                        <input type="text" name="name" id="fname" class="form-control" placeholder="First Name" 
+                            required/>
+                        <label class="name-labels" for="lname">Last Name</label>
+                        <input type="text" name="name" id="lname" class="form-control" placeholder="Last Name" 
+                            required/>
+                        <label class="name-labels" for="emailaddress">Email</label>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" 
+                            required/>
+                        <label class="name-labels" for="lessontype">Lesson Type</label>
+                        <select id="lesson" name="lesson">
+                            <option value="acoustic">Acoustic Guitar</option>
+                            <option value="electric">Electric Guitar</option>
+                            <option value="bass">Bass Guitar</option>
+                        </select>
+                        <label class="name-labels" for="additionalinfo">Additional Info</label>
+                        <textarea rows="5" name="additionalinfo" id="additionalinfo" placeholder="Additional Info"></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-sm btn-yel">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+   </section>
 
     <hr class="divider">
 
     
 
-    <hr class="divider">
 
     <footer class="container-fluid footer-container">
         <div id="my-footer" class="row my-sub footer-bg-color">
@@ -73,13 +105,13 @@
                         <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                     </li>
                     <li class="list-inline-item page-link-item">
-                        <a href="index.html"><i class="fa fa-info" aria-hidden="true"></i><span>About</span></a>
+                        <a href="about.html"><i class="fa fa-info" aria-hidden="true"></i><span>About</span></a>
                     </li>
                     <li class="list-inline-item page-link-item">
-                        <a href="index.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Lessons</span></a>
+                        <a href="lessons.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Lessons</span></a>
                     </li>
                     <li class="list-inline-item page-link-item">
-                        <a href="index.html"><i class="fa fa-comments" aria-hidden="true"></i><span>Contact</span></a>
+                        <a href="contact.html"><i class="fa fa-comments" aria-hidden="true"></i><span>Contact</span></a>
                     </li>
                 </ul>
             </div>
