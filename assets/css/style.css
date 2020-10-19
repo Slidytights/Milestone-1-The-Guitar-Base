@@ -7,23 +7,23 @@ h1, h2 {
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-image: linear-gradient( #000, #eccc16);
+    background-image: linear-gradient( rgb(80, 78, 78), #cacaca);
 }
 
 .ui-manu-color-home { 
-    background-color: #eccc16;
+    background-color: #cacaca;
 }
 
 .ui-manu-color-about {
-    background-color: #eccc16;
+    background-color: #cacaca;
 }
 
 .ui-manu-color-lessons {
-    background-color: #eccc16;
+    background-color: #cacaca;
 }
 
 .ui-manu-color-contact {
-    background-color: #eccc16;
+    background-color: #cacaca;
 }
 
 /*--------------------------------------------Header*/
@@ -62,8 +62,8 @@ header {
     text-align: left;
     padding-left: 35px;
     padding-right: 70px;
-    color: #eccc16;
-    text-shadow: 2px 2px 5px #000;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 3px #000;
     transition: 1s ease-in-out;
     -moz-transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
@@ -80,8 +80,8 @@ header {
     margin-bottom: 90px;
     text-align: center;
     padding-right: 70px;
-    color: #eccc16;
-    text-shadow: 3px 3px 5px #000;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 3px #000;
     transition: 1s ease-in-out;
     -moz-transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
@@ -138,7 +138,7 @@ header {
 }
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
@@ -198,7 +198,7 @@ header {
     font-size: 30px;
     padding-top: 25px;
     text-transform: uppercase;
-    text-shadow: 3px 3px 5px #000;
+    text-shadow: 2px 2px 3px #000;
 }
 
 .lead {
@@ -208,11 +208,11 @@ header {
     font-size: 25px;
     padding-top: 10px;
     
-    text-shadow: 3px 3px 5px #000;
+    text-shadow: 2px 2px 3px #000;
 }
 
 #head, #lead {
-    color: #eccc16;
+    color: #fcfcfc;
 	-webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color: #000;
 }
@@ -235,8 +235,8 @@ header {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
-    color: #000;
-    background-color: #eccc16;
+    color: rgb(0, 0, 0);
+    background-color: #fcfcfc;
     box-shadow: 0 3px 8px #000;
 }
 
@@ -247,7 +247,7 @@ header {
 .btn-yel:focus,
 .btn-yel:active:focus {
     background-color: #000;
-    color: #eccc16;
+    color: #fcfcfc;
 }
 
 /*--------------------------------------------journey*/
@@ -257,7 +257,7 @@ header {
     max-width: 100%;
     min-height: 360px;
     border: 0;
-    background-image: linear-gradient(to bottom,#eccc16, #000, #eccc16); 
+    background-image: linear-gradient(to bottom left, rgb(80, 78, 78), #cacaca, rgb(80, 78, 78)); 
     box-shadow: 0 3px 8px #000, 0 -3px 8px #000;  
 
 }
@@ -269,9 +269,9 @@ header {
     padding-top: 25px;
     font-size: 380%;
     letter-spacing: 3px;
-    color: #eccc16;
+    color: #ffffff;
 	
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 2px 2px 3px #000;
 }
 
 .my-float {
@@ -294,16 +294,15 @@ header {
 
 #text-change {
     font-size: 90%;
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
+    color: #fcfcfc;
+	
 }
 
 .text {
     font-family: "Exo", sans-serif;
     padding-left: 10px; 
     font-weight: 600;
-    text-shadow: 2px 2px 8px #000;
+    text-shadow: 2px 2px 3px #000;
     
 }
 
@@ -313,11 +312,11 @@ header {
     padding: 12px 0;
     border-radius: 12.5%;
     font-size: 12px;
-    box-shadow: 2px 2px 8px #000;
+    box-shadow: 2px 2px 5px #000;
     line-height: 7px;
     text-align: center;
     color: #000;
-    background: #eccc16; 
+    background: #fcfcfc; 
     transition: 0.35s ease-in-out;
     -moz-transition: 0.35s ease-in-out;
     -webkit-transition: 0.35s ease-in-out;
@@ -326,7 +325,7 @@ header {
 }
 
 .my-float li i:hover {
-    color: #eccc16;
+    color: #fcfcfc;
     background: #000;
     transition: 1s ease-in-out;
     -moz-transition: 1s ease-in-out;
@@ -342,7 +341,7 @@ header {
     max-width: 100%;
     min-height: 120px;
     border: 0;
-    background-image: linear-gradient(to bottom, #000, #eccc16); 
+    background-image: linear-gradient(to bottom left, rgb(80, 78, 78), #cacaca); 
     box-shadow: 0 3px 5px #000, 0 -4px 5px #000; 
 }
 
@@ -350,7 +349,7 @@ header {
     font-family: "Exo", sans-serif;
     padding-top: 10px;
     font-weight: 600;
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 2px 2px 3px #000;
 }
 
 .uppercase {
@@ -363,9 +362,8 @@ header {
 
 
 #my-footer {
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
+    color: #fcfcfc;
+	
 }
 
 .page-link-container {
@@ -381,7 +379,7 @@ header {
 }
 
 #page-links li {
-    font-size: 14px;
+    font-size: 20px;
     padding: 10px 10px 10px 10px; 
     
 }
@@ -397,9 +395,8 @@ header {
 .page-link-item a {
     width: 100%;
     text-decoration: none;
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
+    color: #fcfcfc;
+	
     height: 120px;
     transition: 0.35s ease-in-out;
     -moz-transition: 0.35s ease-in-out;
@@ -410,9 +407,8 @@ header {
 .page-link-item i {
     padding-top: 10px;
     display: block;
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
+    color: #fcfcfc;
+	
     font-size: 20px;
     transition: 0.35s ease-in-out;
     -moz-transition: 0.35s ease-in-out;
@@ -423,12 +419,12 @@ header {
 
 .page-link-item i:hover {
     color: #000;
-    text-shadow: 2px 2px 5px #eccc16;
+    text-shadow: 2px 2px 5px #fcfcfc;
 }
 
 .page-link-item span:hover {
     color: #000;
-    text-shadow: 2px 2px 5px #eccc16;
+    text-shadow: 2px 2px 3px #fcfcfc;
 }
 
 .page-link-item span {
@@ -466,7 +462,7 @@ header {
     line-height: 7px;
     text-align: center;
     color: #000;
-    background: #eccc16; 
+    background: #fcfcfc; 
     transition: 0.35s ease-in-out;
     -moz-transition: 0.35s ease-in-out;
     -webkit-transition: 0.35s ease-in-out;
@@ -474,7 +470,7 @@ header {
 }
 
 .social-links li i:hover {
-    color: #eccc16;
+    color: #fcfcfc;
     background: #000;
     transition: 1s ease-in-out;
     -moz-transition: 1s ease-in-out;
@@ -517,15 +513,15 @@ header {
     min-height: 360px;
     padding: 30px 70px 20px 70px;
     border: 0;
-    background-image: linear-gradient(to bottom,#eccc16, #000, #eccc16); 
+    background-image: linear-gradient(to bottom left, rgb(80, 78, 78), #cacaca, rgb(80, 78, 78)); 
     box-shadow: 0 3px 5px #000, 0 -4px 5px #000; 
 }
 
 #about-text {
     font-family: "Sansita Swashed", sans-serif;
     text-align: center;
-    color: #eccc16;
-    text-shadow: 2px 2px 5px #000;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 3px #000;
 
 }
 
@@ -546,7 +542,7 @@ header {
     max-width: 100%;
     min-height: 360px;
     border: 0;
-    background-image: linear-gradient(to bottom,#eccc16, #000, #eccc16);  
+    background-image: linear-gradient(to bottom left, rgb(80, 78, 78), #cacaca, rgb(80, 78, 78));  
     box-shadow: 0 3px 8px #000, 0 -3px 8px #000;  
 }
 
@@ -555,9 +551,9 @@ header {
     text-align: center;
     font-weight: 600;
     padding-top: 25px;
-    color: #eccc16;
+    color: #fcfcfc;
 	
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 2px 2px 3px #000;
 }
 
 .media {
@@ -587,15 +583,15 @@ header {
     font-weight: 500;
     border: 0;
     padding-left: 10px;
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
-    text-shadow: 2px 2px 5px #000;
+    color: #fcfcfc;
+	
+    text-shadow: 2px 2px 3px #000;
 }
 
 .video-container {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .video {
@@ -610,14 +606,14 @@ header {
     max-width: 100%;
     min-height: 360px;
  
-    background-image: linear-gradient(to bottom,#eccc16, #000, #eccc16); 
+    background-image: linear-gradient(to bottom left, rgb(80, 78, 78), #cacaca, rgb(80, 78, 78)); 
     box-shadow: 0 3px 8px #000, 0 -3px 8px #000;  
 }
 
 .bd-example {
-    border: 0;
-    margin: 0;
-    padding:50px 50px 50px 50px;
+   
+   
+    padding:100px 600px 100px 600px;
     display: flex;
     justify-content: center;
     
@@ -626,7 +622,7 @@ header {
 
  .my-pics {
     border-radius: 5%;
-    box-shadow: 2px 2px 5px #000;
+    box-shadow: 3px 3px 8px #000;
     
  }
 
@@ -636,10 +632,9 @@ header {
     font-weight: 600;
     border: 0;
     padding-left: 10px;
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
-    text-shadow: 2px 2px 5px #000;
+    color: #fcfcfc;
+	
+    text-shadow: 2px 2px 3px #000;
  }
 
  .car-p {
@@ -648,10 +643,9 @@ header {
     font-weight: 600;
     border: 0;
     padding-left: 10px;
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
-    text-shadow: 2px 2px 5px #000;
+    color: #fcfcfc;
+	
+    text-shadow: 2px 2px 3px #000;
  }
 
 /*--------------------------------------------Contact-page*/
@@ -660,7 +654,7 @@ header {
     max-width: 100%;
     min-height: 360px;
     border: 0;
-    background-image: linear-gradient(to bottom,#eccc16, #000, #eccc16);  
+    background-image: linear-gradient(to bottom left, rgb(80, 78, 78), #cacaca, rgb(80, 78, 78));  
     box-shadow: 0 3px 8px #000, 0 -3px 8px #000;  
 }
 
@@ -671,9 +665,8 @@ header {
     text-align: center;
     border: 0;
     padding: 25px 0;
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
+    color: #fcfcfc;
+	
     text-shadow: 2px 2px 5px #000;  
 }
 
@@ -710,10 +703,9 @@ input[type=text],input[type=email], select, textarea {
     font-family: "Exo", sans-serif;
     font-size: 100%;
     font-weight: 600;
-    color: #eccc16;
-	-webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: #000;
-    text-shadow: 2px 2px 5px #000;
+    color: #fcfcfc;
+	
+    text-shadow: 2px 2px 3px #000;
 }
 
 /*--------------------------------------------media-query*/
@@ -726,12 +718,16 @@ input[type=text],input[type=email], select, textarea {
 
 @media (min-width: 786px) {
     .video-container {
-        padding-left: 150px;
+        padding-left: 200px;
     }
 } 
 @media (max-width: 786px) {
     .car-header {
         font-size: 300%;
+    }
+
+    .bd-example {
+        padding: 100px 100px 100px 100px;
     }
 }
 
@@ -761,4 +757,11 @@ input[type=text],input[type=email], select, textarea {
     .bottom-right {
         padding-bottom: 25px;
     }
+
+    .slide-pics {
+        width: 100%;
+        height: 100%;
+    }
 }
+
+
